@@ -1,0 +1,39 @@
+.item {
+  /* Display and Visibility */
+  cursor: pointer;
+  /* Box Model */
+  margin-bottom: 0.75rem;
+  /* Box Style */
+  border-radius: var(--border-radius);
+}
+
+.item a {
+  /* Display and Visibility */
+  display: flex;
+  user-select: none;
+  /* Position and Layout */
+  align-items: center;
+  /* Box Model */
+  width: 100%;
+  height: 100%;
+  padding: 0.75rem;
+  /* Box Style */
+  border-radius: var(--border-radius);
+}
+
+.item a span {
+  /* Box Model */
+  margin-left: 0.75rem;
+  /* Typography */
+  font-size: 1.25rem;
+}
+
+.item:not(.activePage):hover {
+  /* Background */
+  background-color: var(--violet-200);
+}
+
+.activePage {
+  /* Background */
+  background-color: var(--violet-300);
+}

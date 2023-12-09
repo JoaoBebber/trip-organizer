@@ -1,0 +1,9 @@
+.container {
+  /* Display and Visibility */
+  display: grid;
+  grid-template-columns: 256px 1fr;
+  /* Box Model */
+  min-height: 100vh;
+  /* Background */
+  background-color: var(--main-bg);
+}

@@ -1,0 +1,15 @@
+.logo {
+  /* Display and Visibility */
+  display: flex;
+  /* Position and Layout */
+  justify-content: center;
+  align-items: center;
+}
+
+.logo span {
+  /* Display and Visibility */
+  user-select: none;
+  /* Typography */
+  font-weight: 500;
+  font-size: 1.5rem;
+}
